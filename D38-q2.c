@@ -4,7 +4,7 @@
 int main() {
     int a[10][10], n, i, j, isSymmetric = 1;
 
-    printf("Enter the order of the matrix: ");
+    printf("Enter the order of the matrix:   ");
     scanf("%d", &n);
 
     printf("Enter the elements of the matrix:\n");

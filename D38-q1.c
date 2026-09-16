@@ -1,11 +1,11 @@
 /*Add two matrices.*/
 #include <stdio.h>
-
+     
 int main() {
     int a[10][10], b[10][10], c[10][10];
     int i, j, r, k;
 
-    printf("Enter the number of rows and columns of the matrices: ");
+    printf("Enter the number of rows and columns of the matrices : ");
     scanf("%d %d", &r, &k);
 
     printf("Enter the elements of the first matrix:\n");
