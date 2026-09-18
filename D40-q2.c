@@ -1,4 +1,4 @@
-/*Multiply two matrices ask user for no. of rows and columns for both matrices.*/
+/*Multiply two matrices.*/
 #include <stdio.h>
 
 int main() {
