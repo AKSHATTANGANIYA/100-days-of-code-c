@@ -28,7 +28,7 @@ int main() {
 
     printf("Spaces: %d\n", spaces);
     printf("Digits: %d\n", digits);
-    printf("Special characters: %d\n", special);
+    printf("Special characters : %d\n", special);
 
     return 0;
 }
