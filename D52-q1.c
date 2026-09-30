@@ -22,7 +22,7 @@ int findCeilIndex(int arr[], int n, int x) {
 int main() {
     int n, x;
 
-    printf("Enter number of elements: ");
+    printf("Enter number of elements : ");
     scanf("%d", &n);
 
     int arr[n];
