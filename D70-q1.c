@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main() {
     int n, target;
+    printf("Enter the number of elements in the array: ");
     if (scanf("%d", &n) != 1 || n <= 0) {
         printf("-1 -1\n");
         return 0;
@@ -11,12 +12,13 @@ int main(void) {
 
     int *nums = malloc(n * sizeof(int));
     if (!nums) return 1;
-
+printf("Enter the elements of the array: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &nums[i]);
     }
+    printf("Enter the target sum: ");
     scanf("%d", &target);
-
+printf("Indices of elements that sum to %d: ", target);
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             if (nums[i] + nums[j] == target) {
