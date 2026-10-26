@@ -46,8 +46,6 @@ int main(void) {
         }
         copied++;
     }
-
-    // The loop also ends on a read error, so check for it
     if (ferror(src)) {
         printf("Error: failed while reading from %s.\n", srcName);
         fclose(src);
